@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinião dos alunos sobre escola integral | Portfólio</title>
+    
+    <!-- Pico CSS via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    
+    <!-- JetBrains Mono Font -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="dark-theme">  
+    <!-- HEADER -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="../index.html" class="logo-main">Leandro Freire</a>
+                <span class="logo-sub">data_scientist</span>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../portfolio.html">portfólio</a></li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro/escuro">
+                            <span id="theme-icon">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+        <div class="container">
+            <!-- Card gigante do post -->
+            <article class="big-card">
+                <!-- Cabeçalho do card -->
+                <div class="card-header">
+                    <h1 class="card-title">Visualização da opinião dos alunos sobre escola integral</h1>
+                    <p class="card-subtitle">Na disciplina Tópicos Interdisciplinares III do Curso de Ciência de Dados eu desenvolvi um projeto de extensão que investigou a satisfação dos alunos do ensino médio da EE Maestro Frederico Liebermann em Campo Grande/MS à respeito da introdução do regime integral de aulas</p>
+                </div>
+                
+                <!-- Conteúdo do card -->
+                <div class="card-content">
+                    <p class="card-text"><a href="https://github.com/leandrofreiredealmeida/projeto_escola_integral">GitHub Link</a></p>
+                    <div class="card-image">
+                        <img src="../images/projeto_escola_integral_1.jpg" alt="Questionário aplicado nos alunos">
+                        <div class="image-caption">Questionário aplicado nos alunos</div>
+                    </div>
+                    
+                    <p class="card-text">O foco deste projeto foi a análise comparativa das percepções dos discentes sobre a qualidade pedagógica, infraestrutura, bem-estar e relações interpessoais antes e após a adoção do novo regime educacional (escola em período integral)</p>
+                    <p class="card-text">O objetivo geral do projeto foi a análise dos efeitos do ensino integral no cotidiano dos estudantes, por meio da coleta e processamento de dados quantitativos e qualitativos, visando identificar pontos fortes, fragilidades e oportunidades de aprimoramento, além de subsidiar a direção da escola com evidências concretas para ajustes no modelo pedagógico.</p>
+                    
+                    <div class="card-image">
+                        <img src="../images/projeto_escola_integral_2.png" alt="Desvantagens do Ensino Integral">
+                        <div class="image-caption">Desvantagens do Ensino Integral de acordo com os alunos</div>
+                    </div>
+                    
+                    <p class="card-text">Para isso apliquei um questionário misto, composto por escalas Likert, perguntas binárias e três questões abertas, a todos os alunos do Ensino Médio da instituição, totalizando 88 alunos em 4 salas de aula.</p>
+                    <p class="card-text">Os dados quantitativos foram tratados estatisticamente, com geração de gráficos comparativos, enquanto as respostas textuais passaram por análise de sentimentos via Processamento de Linguagem Natural (NLP).</p>
+                </div>
+                
+                <!-- Rodapé do card -->
+                <div class="card-footer">
+                    <a href="../portfolio.html" class="back-link">← Voltar para o portfólio</a>
+                </div>
+            </article>
+        </div>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="social-links">
+                    <a href="https://bsky.app/profile/pdfreire.bsky.social" class="social-link" aria-label="Bluesky"><i class="fa-solid fa-cloud"></i></a>
+                    <a href="https://www.linkedin.com/in/leandro-freire-de-almeida-24893349/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/leandrofreiredealmeida" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:lefreirealmeida@gmail.com" class="social-link" aria-label="E-mail"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <p class="copyright">
+                    &copy; <span id="current-year">2026</span> Leandro Freire. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Nosso JavaScript -->
+    <script src="../script.js"></script>
+</body>
+</html>
